@@ -1,3 +1,26 @@
+## libcaer (rolling) - 1.0.1-2
+
+The packages in the `libcaer` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --edit-track --track rolling --rosdistro rolling libcaer` on `Mon, 15 Jan 2024 14:53:58 -0000`
+
+The `libcaer` package was released.
+
+Version of package(s) in repository `libcaer`:
+
+- upstream repository: https://github.com/ros-event-camera/libcaer.git
+- release repository: https://github.com/ros2-gbp/libcaer-release.git
+- rosdistro version: `1.0.1-1`
+- old version: `1.0.1-1`
+- new version: `1.0.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## libcaer (humble) - 1.1.2-2
 
 The packages in the `libcaer` repository were released into the `humble` distro by running `/usr/bin/bloom-release --rosdistro humble libcaer` on `Mon, 15 Jan 2024 14:47:20 -0000`
