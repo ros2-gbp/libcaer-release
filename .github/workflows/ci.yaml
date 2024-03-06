@@ -1,0 +1,19 @@
+#
+# continuous integration workflow
+#
+name: build repo
+
+on:
+ push:
+    branches: [ ros_event_camera ]
+ pull_request:
+    branches: [ ros_event_camera ]
+ workflow_dispatch:
+    branches: [ ros_event_camera ]
+
+jobs:
+  build_ros2:
+    uses: ros-event-camera/ros-build-action/.github/workflows/ros2_ci.yml@master
+    with:
+      repo: ${{ github.event.repository.name }}
+
