@@ -1,1 +1,1 @@
-{"base": "cfc25fd", "parent": "debian/rolling/libcaer", "previous": "0e50a69", "trim": "", "trimbase": ""}
+{"base": "acc2b47", "parent": "debian/jazzy/libcaer", "previous": "294363c", "trim": "", "trimbase": ""}
